@@ -1,0 +1,13 @@
+GIT- Global Information Tracker, it is a version control system
+#sudo yum install git -y			To install git
+#git --version					to check git version or git is installed or not
+#git init . or #git init /home/john		creating a empty git repository. here "." represents current directory or where you wan to create a repository
+#rm -rf .git					To delete the created repository
+#touch aws gcp azure				creating files
+#git add aws gcp azure				tracking a file name or names aws gcp azure
+#git add *					* represents all the files and folders in that durectory
+#git status					to know hw status of a file, whether it is modified or deleted
+#git commit -m "commiting aws azure gcp" .	commiting means saving a version of code  -m  used as a tag or comment "." represents allfiles in staging area or in tracking
+#git log					To know how many commits are done 
+#git show commit id --name-only			to know how many files, what are the things we commit in that commit ID
+#git show 3j456j54				gives something un understandable. 3j456j54 is commit ID
